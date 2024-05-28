@@ -1,0 +1,149 @@
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.blue {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 250px;
+  height: 340px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.gray1 {
+  color: hsl(241, 100%, 89%);
+  font-size: 17px;
+}
+
+.gray2 {
+  color: hsl(241, 100%, 89%);
+  font-size: 15px;
+}
+
+.sec1 {
+  border: 1px;
+  padding: 1px;
+  margin-left: 45px;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+h1 {
+  font-size: 45px;
+  color: white;
+}
+
+.scale {
+  color: hsl(241, 100%, 89%);
+  font-size: 14px;
+}
+
+.great {
+  font-size: 17px;
+  color: white;
+}
+
+.white {
+  background-color:  hsl(0, 0%, 100%);
+  width: 250px;
+  height: 340px;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px rgb(235, 231, 231);
+}
+
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.red {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 3px;
+  background-color: hsl(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+  font-size: 15px;
+  padding: 10px;
+
+}
+
+
+.yellow {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 3px;
+  background-color: hsl(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+.green {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 3px;
+  background-color: hsl(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+.blu {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 3px;
+  background-color: hsl(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+  font-size: 15px;
+  padding: 10px;
+}
+
+.gr {
+  color: hsl(224, 30%, 27%, 0.8);
+}
+
+.black {
+  color: black;
+  margin-left: 111px;
+}
+
+button {
+  background-color:  hsl(224, 30%, 27%);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 22px;
+  width: 200px;
+  margin-left: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media screen and (max-width: 775px) {
+
+  body {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
